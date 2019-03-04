@@ -26,7 +26,6 @@ public class StringArrayValidator {
 
     }
 
-
     public static boolean containsNumbers(String input) {
         char[] chars = input.toCharArray();
 
@@ -39,9 +38,7 @@ public class StringArrayValidator {
         return false;
     }
 
-
     public static boolean startsWithAVowel(String input) {
-
         char[] chars = input.toCharArray();
         char[] firstCharacter = { chars[0] };
 
@@ -52,6 +49,7 @@ public class StringArrayValidator {
 
     }
 
+    /* stole this from stack overflow hahaha */
     public static String createRandomAlphaNumericString(int randomStringLength) {
 
         int leftLimit = 97; // letter 'a'
